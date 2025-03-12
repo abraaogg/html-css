@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+</head>
+<style>
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: lightgrey;
+    }
+
+    iframe#tela{
+        width: 90vw;
+        height: 500px;
+        border: 2px solid black;
+    }
+
+    a{
+        text-decoration: none;
+        color: darkslategray;
+    }
+    a:hover{
+        background-color: darkolivegreen;
+        color: aliceblue;
+        transition-duration: 0.5s;
+    }
+</style>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, nobis corporis. Nihil saepe accusamus ratione maiores omnis error cupiditate tenetur qui blanditiis, dolore sit numquam dolor architecto laboriosam corporis sunt.</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frame">primeira página</a></li>
+        <li><a href="pag002.html" target="frame">segunda página</a></li>
+        <li><a href="pag003.html" target="frame">terceira página</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, dolores, aliquam labore incidunt asperiores distinctio fugit corporis quisquam laboriosam tempora blanditiis adipisci tempore inventore ratione laborum recusandae hic harum saepe? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia rem odio, sequi odit magnam obcaecati minus voluptatibus ex alias saepe esse iusto reprehenderit? Quidem fugit iusto atque hic quae suscipit!</p>
+    <iframe id="tela" name="frame" src="">
+        <p>Infelizmente seu navegador não é compativel com isso</p>
+    </iframe>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur sunt nesciunt molestiae ratione voluptatum quas tempore ipsum ex voluptatibus illum quisquam, animi excepturi provident laudantium, iure amet iste quae eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem possimus itaque id explicabo minus incidunt enim inventore veritatis eveniet eaque deleniti quam amet error nobis quisquam a porro, nihil voluptatum.</p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        /* Declarações gerais */
+
+            *{
+        margin: 0px;
+        padding: 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html, body{
+        width: 100vw;
+        height: 100vh;
+        background-color: #233eff;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    h1{
+        color: wheat;
+        text-shadow: 3px 3px 0px #162596;
+        padding: 10px;
+    }
+
+    /* Declarações retrato */
+
+    @media screen and (orientation: portrait) {
+
+            body{
+        background-image: url(../imagens/pexels-kse91-30981027.jpg);
+        }  
+    }
+
+    /* Declarações paisagem */
+
+    @media screen and (orientation: landscape) {
+
+            body{
+        background-image: url(../imagens/pexels-guyen-tharo-273399688-14379447.jpg);
+        background-position: top  ;
+            }
+    }
+    </style>
+</head>
+<body>
+    <h1>Mude a orientação do seu dispositivo </h1>
+</body>
+</html>

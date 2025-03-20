@@ -1,3 +1,8 @@
 @charset "UTF-8";
 
 /* Aparelho deitado (landscape) */
+
+body{
+    background-image: url(../imagens/pexels-guyen-tharo-273399688-14379447.jpg);
+    background-position: top  ;
+}

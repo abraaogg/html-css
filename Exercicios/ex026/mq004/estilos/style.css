@@ -16,7 +16,7 @@ body, html{
 }
 
 body{
-    background: black url(../imagens/pexels-eva-hamitaj-181569841-31147043.jpg) no-repeat;
+    background: black url(../imagens/cellphone.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
 }
@@ -37,6 +37,8 @@ h1{
 img{
     display: block;
     margin: auto;
+    height: 100px;
+    
 }
 
 img#phone{ display: block;}

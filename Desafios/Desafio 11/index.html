@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço</title>
+</head>
+<body>
+    <div class="container">
+        <img src="espaco.jpg" alt="espaço" class="background">
+        <img src="astronauta.png" alt="astronauta" class="foreground">
+    </div>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            overflow: hidden;
+}
+        .container {
+            position: relative;
+            display: inline-block;
+        }
+        .background {
+            width: 100vw;
+            height: 100vh;
+        }
+        .foreground {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 30%; /* Adjust size as needed */
+        }
+    </style>
+</body>
+
+</html>

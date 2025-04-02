@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+
+        picture {
+            display: flex;
+            
+        }
+
+  
+    </style>
+</head>
+<body>
+    <h1>Imagem flexível</h1>
+    <p>Are you seeing the whole image? Try increasing your screen size to enjoy a better experience! &#x2728</p>
+    
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="Imagem flexivel">
+    </picture>
+</body>
+</html>
